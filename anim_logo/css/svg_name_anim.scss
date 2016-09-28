@@ -1,0 +1,23 @@
+#what{
+    stroke: white;
+    stroke-width: 2;
+    stroke-dasharray: 325;
+    stroke-dashoffset: 325;
+
+    animation: offset 3s linear forwards;
+    .st0{
+        animation: apply .8s 3s forwards;
+    }
+}
+
+@keyframes offset{
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes apply{
+    100%{
+        fill: white;
+    }
+}

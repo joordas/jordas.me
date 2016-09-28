@@ -1,0 +1,172 @@
+@import "_variables.scss";
+
+
+*{
+    box-sizing: border-box;
+
+}
+*::selection{
+    background-color: $accent;
+}
+body{
+    font-family: "Lato" , "Monserrat" , sans-serif;
+    color: white;
+    background-color: $mainGray;
+    margin-top: 60px;
+
+}
+
+a:link, a:visited{
+
+    text-decoration: none;
+}
+
+
+
+
+
+/**************************************
+////////////////HEADER
+*********************************/
+
+header{
+    background-color:$mainGray;
+    font-family: "Lato";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    a{
+        color: white;
+    }
+    h2{
+        font-family: "Montserrat";
+        font-weight: 700;
+        text-align: center;
+        font-size: 3em;
+        svg{
+            margin: 0 auto 5%;
+            width: 40%;
+            display: block;
+        }
+        a{
+            padding: 9px 12px;
+            border-radius: 2px;
+        }
+    }
+
+    .contact{
+        //border: 4px solid $accent;
+        border-radius: 6px;
+        transition: $transition1;
+        &.selected .social{
+            filter:none;
+            transform: scale(1.08, 1.08);
+        }
+        .social{
+            min-width: 45px;
+            max-width: 45px;
+            display: inline-block;
+            padding: 4px;
+            //margin: 8px 8px;
+            filter: grayscale(1);
+            transition: $transition1;
+            &:hover{
+                filter: none;
+            }
+
+        }
+    }
+    .main-nav{
+
+    ul{
+        display: flex;
+        a{
+            border-radius: 3px;
+            margin: 2px 2px;
+            &:hover, &.selected{
+                transform: translate(6px, 1px);
+                background-color: white;
+                color: $mainGray;
+            }
+        }
+        li{
+
+            margin-bottom: 2px;
+            font-weight: 300;
+            font-size: 1.4em;
+            border-radius: 3px;
+            padding: 6px 6px;
+            transition: $transition1;
+
+        }
+    }
+    }
+}///header end
+
+
+
+/*****************************************
+/////////////////MAIN CONTENT
+*********************************************/
+
+
+.main-content{
+    p{
+
+        font-size: 1.585em;
+        margin-left: 80px;
+        margin-right: 80px;
+        font-family: 'Pavanam', serif;
+        transition: $transition1;
+        span{
+            transition: $transition1;
+        }
+        &.selected-about span{
+            background-color:  $accent;
+            color: $mainGray;
+            font-size: 3em;
+        }
+    }
+
+
+}
+
+
+.secondary{
+    background-color: $mainGray;
+    transition: $transition1;
+    &.selected{
+        background: darken($mainGray, 2%);
+        transform: $transformScale;
+    }
+    .gallery{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gallery-img{
+    margin: 5px;
+     float:left;
+    position: relative;
+    }
+    .img-caption{
+        text-align: center;
+            font-size:  0.5em;
+    }
+    .headers{
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+
+        //    font-size: 3em;
+    }
+}
+
+
+
+/******************************
+
+******************************/
+
+footer{
+    min-height: 15vh;
+}

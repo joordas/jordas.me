@@ -1,0 +1,58 @@
+@media screen and (min-width: 899px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    margin: 3em 0; }
+    header h2 {
+      display: block;
+      margin: 0 0 0 1.5em;
+      font-size: 3.2em; }
+    header .contact {
+      margin-left: 29%; }
+    header .main-nav ul {
+      flex-direction: column; }
+    header .main-nav li {
+      text-align: center; } }
+@media screen and (min-width: 1200px) {
+  body {
+    display: flex;
+    background-color: #191919;
+    justify-content: space-around; }
+
+  header {
+    flex-direction: column;
+    margin: 0;
+    align-items: center; }
+    header h2 {
+      margin: 1.05em 1em;
+      font-size: 3.6em; }
+    header .main-nav li {
+      text-align: left;
+      margin-top: 20px; }
+    header .contact {
+      margin: 0;
+      padding: 8px;
+      border-radius: 6px; }
+      header .contact .social {
+        width: 60px; }
+
+  .secondary .headers {
+    font-size: 4em; }
+  .secondary .gallery {
+    align-items: flex-end;
+    justify-content: flex-start; }
+
+  .contact .social {
+    width: 60px;
+    display: block;
+    margin: auto;
+    padding: 3px; }
+
+  .main-content {
+    margin-top: 40px; }
+    .main-content p {
+      margin: 1em 0; }
+      .main-content p.selected-about span {
+        font-size: 2em; } }
+
+/*# sourceMappingURL=responsive.css.map */

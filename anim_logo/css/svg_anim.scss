@@ -1,0 +1,74 @@
+ svg *{
+    transform-origin: 50% 50%;
+}
+
+#pupil{
+    transition: all 6s ease-out;
+}
+
+#XMLID_6_,
+#iris{
+    transition: all 1s ease-out;
+}
+#reflex{
+    transition: all 1s ease-in;
+}
+
+
+@keyframes spin {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(180deg)};
+}
+
+
+// #eyeleaves{
+//     animation: spin 2s infinite;
+// }
+
+
+#leaf_2{
+    animation: spin 2s infinite;
+    animation-delay: 0.05s;
+}
+
+#leaf_3_1_{
+    animation: spin 2s infinite;
+    animation-delay: 0s;
+}
+
+#leaf_4{
+    animation: spin 2s infinite;
+    animation-delay: 0.1s;
+}
+
+
+// #leaf_3_1_{
+//     transition: all 2.5s linear;
+//     transition-delay: 1.25s;
+// }
+//
+// #leaf_2{
+//
+//     transition: all 2.5s  linear;
+//     transition-delay:  .625s ;
+// }
+//
+// #leaf_4{
+//     transition: all 2.5s linear;
+//     transition-delay: 0s;
+//
+// }
+// svg:hover{
+//     #pupil{
+//     transform: scale(1.1);
+//     }
+//     #leaf_2{
+//         transform: rotate(180deg);
+//     }
+//     #leaf_3_1_{
+//         transform: rotate(180deg);
+//     }
+//     #leaf_4{
+//         transform: rotate(180deg);
+//     }
+// }

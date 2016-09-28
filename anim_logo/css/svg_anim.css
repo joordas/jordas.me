@@ -1,0 +1,31 @@
+svg * {
+  transform-origin: 50% 50%; }
+
+#pupil {
+  transition: all 6s ease-out; }
+
+#XMLID_6_,
+#iris {
+  transition: all 1s ease-out; }
+
+#reflex {
+  transition: all 1s ease-in; }
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(180deg); } }
+#leaf_2 {
+  animation: spin 2s infinite;
+  animation-delay: 0.05s; }
+
+#leaf_3_1_ {
+  animation: spin 2s infinite;
+  animation-delay: 0s; }
+
+#leaf_4 {
+  animation: spin 2s infinite;
+  animation-delay: 0.1s; }
+
+/*# sourceMappingURL=svg_anim.css.map */

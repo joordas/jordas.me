@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAK;EACD,MAAM,EAAE,KAAK;EACb,YAAY,EAAE,CAAC;EACf,gBAAgB,EAAE,GAAG;EACrB,iBAAiB,EAAE,GAAG;EAEtB,SAAS,EAAE,yBAAyB;EACpC,UAAI;IACA,SAAS,EAAE,qBAAqB;;AAIxC,iBAIC;EAHG,IAAI;IACA,iBAAiB,EAAE,CAAC;AAI5B,gBAIC;EAHG,IAAI;IACA,IAAI,EAAE,KAAK",
+"sources": ["svg_name_anim.scss"],
+"names": [],
+"file": "svg_name_anim.css"
+}

@@ -1,0 +1,103 @@
+@import "_variables.scss";
+
+
+@media screen and (min-width: 899px){
+
+    header{
+        display: flex;
+        flex-direction: row;
+        margin: 3em 0;
+        h2{
+            display: block;
+            margin: 0 0 0 1.5em;
+            font-size: 3.2em;
+        }
+        .contact{
+            margin-left: 29%;
+        }
+        .main-nav{
+            ul{
+                flex-direction: column;
+            }
+            li{
+                text-align: center;
+            }
+        }
+    }
+
+
+} // end mquery
+
+
+
+@media screen and (min-width: 1200px){
+body{
+    display: flex;
+    background-color: $mainGray;
+    justify-content: space-around;
+
+}
+header{
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    h2{
+        margin: 1.05em 1em;
+        font-size: 3.6em;
+    }
+    .main-nav{
+        ul{
+        }
+        li{
+            text-align: left;
+            margin-top: 20px;
+        }
+    }
+    .contact{
+        margin: 0;
+        padding: 8px;
+        border-radius: 6px;
+        .social{
+            width: 60px;
+        }
+    }
+}
+
+
+
+.secondary{
+    .headers{
+        font-size: 4em;
+    }
+    .gallery{
+        align-items: flex-end;
+        justify-content: flex-start;
+    }
+    img{
+    }
+}
+
+.contact{
+    .social{
+        width: 60px;
+        display: block;
+        margin: auto;
+        padding: 3px;
+
+    }
+}
+
+.main-content{
+    margin-top: 40px;
+    p{
+        margin: 1em 0;
+        &.selected-about span{
+            font-size: 2em;
+        }
+    }
+}
+
+
+
+
+} // end mquery
